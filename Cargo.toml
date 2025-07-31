@@ -2,6 +2,9 @@
 name = "date_utils"
 version = "0.1.0"
 edition = "2024"
+authors = ["Matteo Montanari <matteomontanari014@gmail.com>"]
+description = "A rust lib to handle dates and easily convert them into datetimes."
+repository = "https://github.com/mattmingit/date_utils"
 
 [dependencies]
 thiserror = "2.0.12"
