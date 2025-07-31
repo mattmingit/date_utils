@@ -1,0 +1,8 @@
+[package]
+name = "date_utils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "2.0.12"
+time = { version = "0.3.41", features = ["macros", "formatting", "parsing", "local-offset", "serde"] }
