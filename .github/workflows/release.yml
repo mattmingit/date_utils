@@ -4,6 +4,9 @@ on:
   push:
     tags: ["v*.*.*"] # ONLY runs when a version tag is pushed
 
+env:
+  CARGO_TERM_COLOR: always
+
 jobs:
   build-and-release:
     name: Build and Release
