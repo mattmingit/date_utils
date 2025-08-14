@@ -13,30 +13,30 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Parse `YYYY-MM-DD`, `YYYY-MM`, `YYYY-QN` (SDMX-like formats)
-- 🕐 Convert between `String`, `Date`, `OffsetDateTime`, and Unix `timestamp`
-- 🌐 Handle local and UTC offsets
-- 🔐 Validate that dates are not in the future
-- 🚫 Typed error handling via `thiserror`
+- Parse `YYYY-MM-DD`, `YYYY-MM`, `YYYY-QN` (SDMX-like formats)
+- Convert between `String`, `Date`, `OffsetDateTime`, and Unix `timestamp`
+- Handle local and UTC offsets
+- Validate that dates are not in the future
+- Typed error handling via `thiserror`
 
 ---
 
-## 📦 Installation
+## Installation
 
 Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-date_utils = { git = "https://github.com/your-username/date_utils" }
+date_utils = { git = "https://github.com/mattmingit/date_utils" }
 ```
 
-## 📥 Binary Releases
+## Binary Releases
 
 Precompiled binaries are available on the [ releases page ](https://github.com/mattmingit/date_utils/releases) for major platforms.
 
-## 📚 API Overview
+## API Overview
 
 | Function                            | Description                                                              |
 | ----------------------------------- | ------------------------------------------------------------------------ |
@@ -46,7 +46,7 @@ Precompiled binaries are available on the [ releases page ](https://github.com/m
 | `timestamp_to_offset`               | Converts seconds (`i32`) to a `UtcOffset`                                |
 | `parse_response_string_to_datetime` | Parses `YYYY-MM-DD`, `YYYY-MM`, or `YYYY-QN` into `OffsetDateTime`       |
 
-## ❗ Error Handling
+## Error Handling
 
 All functions return rich, descriptive error types through the DateTimeError enum, including:
 
@@ -62,7 +62,7 @@ All functions return rich, descriptive error types through the DateTimeError enu
 
 - ParseError — fallback for general parsing issues
 
-## 📅 Supported Formats
+## Supported Formats
 
 | Format       | Description                           | Example      |
 | ------------ | ------------------------------------- | ------------ |
