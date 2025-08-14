@@ -41,6 +41,10 @@ pub enum DateType {
     End,
 }
 
+/// Represent the offset type
+///
+/// - `OffsetType::Local`: It indicates local offset
+/// - `OffsetType::Utc`: It indicates utc offset
 pub enum OffsetType {
     Local,
     Utc,
